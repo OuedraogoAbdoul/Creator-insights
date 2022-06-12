@@ -1,0 +1,120 @@
+site_name: AI With Me
+theme:
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.share
+    - header.autohide
+  name: material
+
+  palette:
+    # primary: black
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+        
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: black
+      scheme: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+repo_url: https://github.com/OuedraogoAbdoul
+
+
+
+nav:
+    - Home: index.md
+    - About: about.md
+    - Machine Learning: machine-learning.md
+    - Deep Learning: deep-learning.md
+    - Statistics & Probabilty: stats-Probabilty.md
+    - Software Engineering: swe.md
+    - Startup: swe.md
+
+
+# Languages
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
+        - fr
+        - ar
+        - de
+        - ja
+
+
+# Google Analytics
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+
+
+# Social links
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://twitter.com/squidfunk
+
+    - icon: fontawesome/brands/github 
+      link: https://github.com/OuedraogoAbdoul
+
+
+# Markdown Extensions
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+
+copyright: Copyright &copy; 2016 - 2022 Abdoul Ouedraogo
+
+extra:
+  generator: false
