@@ -11,6 +11,15 @@ theme:
     - search.share
     - header.autohide
   name: material
+  icon:
+    admonition:
+      <type>: material/alert
+
+
+
+
+
+
 
   palette:
     # primary: black
@@ -42,7 +51,13 @@ nav:
     - Deep Learning: deep-learning.md
     - Statistics & Probabilty: stats-Probabilty.md
     - Software Engineering: swe.md
-    - Startup: swe.md
+    - Startup: startup.md
+
+
+
+
+
+
 
 
 # Languages

@@ -1,6 +1,6 @@
 # Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For full documentation visit [SocialInsights](http://localhost:3000/).
 
 ## Commands
 
