@@ -1,0 +1,2 @@
+mkdocs serve 
+mkdocs build

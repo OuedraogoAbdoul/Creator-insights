@@ -1,19 +1,19 @@
-# Home
 
-For full documentation visit [SocialInsights](http://localhost:3000/).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+title: Projects
+---
 
 
+# Welcome to **AI With Me**  :smiley:
+
+
+A place were we strive to learn and share the latest technology. You will find tutorials that go over certain topics.
+
+
+A Github profile with the associated codes will be accompanied with each tutorial.<br><br> <br>
+
+
+# :warning: Important Notes
+    * Some of the links are external links to projects or information that we believe it relevent to the concepts being shared
+    * Fell free to report any mistakes or violation that you may come a accros this site.
+    * Best of all! Have fun lerning and sharing

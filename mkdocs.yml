@@ -2,9 +2,9 @@ site_name: AI With Me
 theme:
   features:
     - navigation.tabs
+    - navigation.indexes
     - navigation.tabs.sticky
     - navigation.sections
-
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -14,12 +14,6 @@ theme:
   icon:
     admonition:
       <type>: material/alert
-
-
-
-
-
-
 
   palette:
     # primary: black
@@ -40,18 +34,31 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
-repo_url: https://github.com/OuedraogoAbdoul
-
+# repo_url: https://github.com/OuedraogoAbdoul
 
 
 nav:
+
     - Home: index.md
     - About: about.md
-    - Machine Learning: machine-learning.md
-    - Deep Learning: deep-learning.md
-    - Statistics & Probabilty: stats-Probabilty.md
-    - Software Engineering: swe.md
-    - Startup: startup.md
+    - Machine Learning:
+      - Model Evaluation: machinelearning/modeleval.md
+      - Features Engineering: machinelearning/featureseng.md
+      - Features Selection: machinelearning/featuresselect.md
+      - Hyperparameters Optimzation: machinelearning/hyperopt.md
+    # - Deep Learning: deep-learning.md
+    - Statistics & Probabilty: #stats-Probabilty.md
+      - One Variable Analysis: statistics/one-variable-analysis.md
+      - Two Variable Analysis: statistics/two-variable-analysis.md
+      - Random variable: statistics/random-variable.md    
+      - Probability Models: statistics/probability-models.md
+
+    # - Software Engineering: swe.md
+    - Projects: #projects.md
+      - NLP Youtube Summarization: projects/nlpyoutubetranscipt.md
+      - CNN Image Classification: projects/cnn.md
+      # - NLP Youtube Summarization: projects/nlpyoutubetranscipt.md    
+      # - NLP Youtube Summarization: projects/nlpyoutubetranscipt.md
 
 
 
@@ -99,9 +106,13 @@ markdown_extensions:
   - admonition
   - attr_list
   - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - footnotes
   - meta
   - md_in_html
+  - pymdownx.snippets
+  - tables
   - toc:
       permalink: true
 
